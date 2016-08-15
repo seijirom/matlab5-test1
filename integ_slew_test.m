@@ -8,7 +8,7 @@ beta = Cda/(Co+(Co+Cin)/A);
 delta = Cin/(Co+(Co+Cin)/A);
 gamma = 1/(1+Cin/((A+1)*Co));
 VinHi = 2; SR = 10; GBW = 1; 
-sim('integ_gain_slew_test') % some comment
+sim('integ_gain_slew_test') % some comment 2
 %figure(1)
 %stairs(1:N,Vin(1:N),'b'); hold on; stairs(1:N,Vout(1:N),'r');axis([0 N 0 N]);
 
