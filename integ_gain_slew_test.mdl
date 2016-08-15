@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.6"
+    ComputedModelVersion    "1.10"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -30,7 +30,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [287.0, 233.0, 848.0, 625.0]
+      Location		      [285.0, 207.0, 852.0, 655.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -39,7 +39,7 @@ Model {
 	DockPosition		"Left"
 	Width			[50]
 	Height			[50]
-	Filter			[8]
+	Filter			[9]
       }
       Object {
 	$PropName		"ExplorerBarInfo"
@@ -54,9 +54,9 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[808.0, 432.0]
+	Extents			[812.0, 462.0]
 	ZoomFactor		[1.0]
-	Offset			[0.0, 0.0]
+	Offset			[0.0, -37.644951045513153]
       }
     }
   }
@@ -66,9 +66,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "anagix"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sun Aug 14 00:28:32 2016"
-  RTWModifiedTimeStamp	  393034040
-  ModelVersionFormat	  "1.%<AutoIncrement:6>"
+  LastModifiedDate	  "Mon Aug 15 10:52:59 2016"
+  RTWModifiedTimeStamp	  393159175
+  ModelVersionFormat	  "1.%<AutoIncrement:10>"
   ConfigurationManager	  "None"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -807,7 +807,7 @@ Model {
   }
   System {
     Name		    "integ_gain_slew_test"
-    Location		    [287, 233, 1135, 858]
+    Location		    [285, 207, 1137, 862]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -891,7 +891,7 @@ Model {
       Name		      "To Workspace"
       SID		      "6"
       Ports		      [1]
-      Position		      [560, 80, 620, 110]
+      Position		      [560, 75, 620, 105]
       ZOrder		      -6
       VariableName	      "Vout"
       MaxDataPoints	      "inf"
@@ -964,7 +964,7 @@ Model {
 	  DstPort		  1
 	}
 	Branch {
-	  Points		  [0, -60]
+	  Points		  [0, -65]
 	  DstBlock		  "To Workspace"
 	  DstPort		  1
 	}
